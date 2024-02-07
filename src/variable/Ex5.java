@@ -11,8 +11,9 @@ public class Ex5 {
         int age = 25;
         String tel1 = "010", tel2 = "1234", tel3 = "5678";
 
-        System.out.println("이름 ; " + name);
+        System.out.println("이름 : " + name);
         System.out.print("나이 : " + age + "\n");
-        System.out.printf("전화 ; " + tel1 + "-" + tel2 + "-" + tel3);
+        System.out.printf("전화 : " + tel1 + "-" + tel2 + "-" + tel3);
+        //System.out.printf("전화 : %s-%s-%s", tel1, tel2, tel3);
     }
 }
